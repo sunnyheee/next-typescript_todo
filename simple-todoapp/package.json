@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "deploy": "vercel deploy",
     "json-server": "json-server --watch data/todos.json --port 9000"
   },
   "dependencies": {
