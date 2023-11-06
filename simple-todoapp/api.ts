@@ -1,6 +1,6 @@
 import { ITask } from "./types/type";
 
-const baseUrl = "http://localhost:9000";
+const baseUrl = "https://secretive-proximal-stag.glitch.me";
 
 export const getAllTodos = async (): Promise<ITask[]> => {
   const res = await fetch(`${baseUrl}/tasks`, { cache: "no-store" });
